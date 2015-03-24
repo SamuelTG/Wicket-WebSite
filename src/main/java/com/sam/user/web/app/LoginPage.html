@@ -1,0 +1,46 @@
+
+<html>
+<head>
+<title>Login</title>
+<!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
+</head>
+
+<body>
+	<div class="container">
+		<div wicket:id="feedback"></div>
+		<section id="content">
+
+			<div>
+				<i> <label wicket:id="msg"></label>
+				</i>
+			</div>
+			<form action="" wicket:id="userForm">
+				<h1>Login</h1>
+				<div>
+					<input type="text" placeholder="Username" wicket:id="username" />
+				</div>
+				<div>
+					<input type="password" placeholder="Password" wicket:id="password" />
+				</div>
+				<div>
+					<input type="submit" value="Log in" />
+					<wicket:link>
+						<a href="LandPage.html">Lost your password?</a>
+						<a href="Register.html">Register</a>
+					</wicket:link>
+				</div>
+
+			</form>
+
+			<!-- form -->
+<!-- 			<div> -->
+<!-- 				<label wicket:id="msg"> </label> -->
+<!-- 			</div> -->
+
+			<!-- button -->
+		</section>
+		<!-- content -->
+	</div>
+	<!-- container -->
+</body>
+</html>

@@ -1,0 +1,49 @@
+
+<html>
+<head>
+<title>Register</title>
+
+</head>
+
+<body>
+	<div class="container">
+		<div wicket:id="feedback"></div>
+		<section id="content">
+
+			<div>
+				<label wicket:id="msg"> </label>
+			</div>
+			<form action="" wicket:id="userForm">
+				<h1>Register</h1>
+
+				<div>
+					<input type="text" placeholder="Username" wicket:id="username"
+						value="sammuel21" />
+				</div>
+				<div>
+					<input type="text" placeholder="Email" wicket:id="email"
+						value="s@t.com" />
+				</div>
+				<div>
+					<input type="password" placeholder="Password" wicket:id="password"
+						value="SamTG21!" />
+				</div>
+				<div>
+					<input type="password" placeholder="comfirm Password"
+						wicket:id="password2" value="SamTG21!" />
+				</div>
+				<div>
+					<input type="submit" value="Register" />
+					<wicket:link>
+						<a href="LoginPage.html">Login</a>
+					</wicket:link>
+				</div>
+
+			</form>
+
+		</section>
+		<!-- content -->
+	</div>
+	<!-- container -->
+</body>
+</html>
